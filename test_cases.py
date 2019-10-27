@@ -133,46 +133,46 @@ TESTS = {
 	all_tests.ut19.ut19,
 	'ut20':
 	all_tests.ut20.ut20,
-	# 'ut21':
-	# all_tests.ut21.ut21,
-	# 'ut22':
-	# all_tests.ut22.ut22,
-	# 'ut23':
-	# all_tests.ut23.ut23,
-	# 'ut24':
-	# all_tests.ut24.ut24,
-	# 'ut25':
-	# all_tests.ut25.ut25,
-	# 'ut26':
-	# all_tests.ut26.ut26,
-	# 'ut27':
-	# all_tests.ut27.ut27,
-	# 'ut28':
-	# all_tests.ut28.ut28,
-	# 'ut29':
-	# all_tests.ut29.ut29,
-	# 'ut30':
-	# all_tests.ut30.ut30,
-	# 'ut31':
-	# all_tests.ut31.ut31,
-	# 'ut32':
-	# all_tests.ut32.ut32,
-	# 'ut33':
-	# all_tests.ut33.ut33,
-	# 'ut34':
-	# all_tests.ut34.ut34,
-	# 'ut35':
-	# all_tests.ut35.ut35,
-	# 'ut36':
-	# all_tests.ut36.ut36,
-	# 'ut37':
-	# all_tests.ut37.ut37,
-	# 'ut38':
-	# all_tests.ut38.ut38,
-	# 'ut39':
-	# all_tests.ut39.ut39,
-	# 'ut40':
-	# all_tests.ut40.ut40,
+	'ut21':
+	all_tests.ut21.ut21,
+	'ut22':
+	all_tests.ut22.ut22,
+	'ut23':
+	all_tests.ut23.ut23,
+	'ut24':
+	all_tests.ut24.ut24,
+	'ut25':
+	all_tests.ut25.ut25,
+	'ut26':
+	all_tests.ut26.ut26,
+	'ut27':
+	all_tests.ut27.ut27,
+	'ut28':
+	all_tests.ut28.ut28,
+	'ut29':
+	all_tests.ut29.ut29,
+	'ut30':
+	all_tests.ut30.ut30,
+	'ut31':
+	all_tests.ut31.ut31,
+	'ut32':
+	all_tests.ut32.ut32,
+	'ut33':
+	all_tests.ut33.ut33,
+	'ut34':
+	all_tests.ut34.ut34,
+	'ut35':
+	all_tests.ut35.ut35,
+	'ut36':
+	all_tests.ut36.ut36,
+	'ut37':
+	all_tests.ut37.ut37,
+	'ut38':
+	all_tests.ut38.ut38,
+	'ut39':
+	all_tests.ut39.ut39,
+	'ut40':
+	all_tests.ut40.ut40,
 
 	# 'it1':
 	# all_tests.it1.it1,
