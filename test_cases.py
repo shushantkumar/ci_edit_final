@@ -65,6 +65,50 @@ import all_tests.ut37
 import all_tests.ut38
 import all_tests.ut39
 import all_tests.ut40
+
+import all_tests.it1
+import all_tests.it2
+import all_tests.it3
+import all_tests.it4
+import all_tests.it5
+import all_tests.it6
+import all_tests.it7
+import all_tests.it8
+import all_tests.it9  # dont know how to do
+import all_tests.it10
+import all_tests.it11
+import all_tests.it12
+import all_tests.it13
+import all_tests.it14
+import all_tests.it15
+import all_tests.it16
+import all_tests.it17
+import all_tests.it18
+import all_tests.it19  # test case failed
+import all_tests.it20
+
+import all_tests.pt1
+import all_tests.pt2
+import all_tests.pt3
+import all_tests.pt4
+import all_tests.pt5
+import all_tests.pt6
+import all_tests.pt7
+import all_tests.pt8
+import all_tests.pt10
+import all_tests.pt11
+import all_tests.pt12
+import all_tests.pt13
+import all_tests.pt14
+import all_tests.pt15
+import all_tests.pt16
+import all_tests.pt17
+import all_tests.pt18
+import all_tests.pt19
+import all_tests.pt20
+import all_tests.pt21 # not working
+import all_tests.pt22
+
 # import all_tests.unit_test_actions
 # import all_tests.unit_test_application
 # import all_tests.unit_test_automatic_column_adjustment
@@ -174,91 +218,91 @@ TESTS = {
 	'ut40':
 	all_tests.ut40.ut40,
 
-	# 'it1':
-	# all_tests.it1.it1,
-	# 'it2':
-	# all_tests.it2.it2,
-	# 'it3':
-	# all_tests.it3.it3,
-	# 'it4':
-	# all_tests.it4.it4,
-	# 'it5':
-	# all_tests.it5.it5,
-	# 'it6':
-	# all_tests.it6.it6,
-	# 'it7':
-	# all_tests.it7.it7,
-	# 'it8':
-	# all_tests.it8.it8,
-	# 'it9':
-	# all_tests.it9.it9,
-	# 'it10':
-	# all_tests.it10.it10,
-	# 'it11':
-	# all_tests.it11.it11,
-	# 'it12':
-	# all_tests.it12.it12,
-	# 'it13':
-	# all_tests.it13.it13,
-	# 'it14':
-	# all_tests.it14.it14,
-	# 'it15':
-	# all_tests.it15.it15,
-	# 'it16':
-	# all_tests.it16.it16,
-	# 'it17':
-	# all_tests.it17.it17,
-	# 'it18':
-	# all_tests.it18.it18,
-	# 'it19':
-	# all_tests.it19.it19,
-	# 'it20':
-	# all_tests.it20.it20,
+	'it1':
+	all_tests.it1.it1,
+	'it2':
+	all_tests.it2.it2,
+	'it3':
+	all_tests.it3.it3,
+	'it4':
+	all_tests.it4.it4,
+	'it5':
+	all_tests.it5.it5,
+	'it6':
+	all_tests.it6.it6,
+	'it7':
+	all_tests.it7.it7,
+	'it8':
+	all_tests.it8.it8,
+	'it9':
+	all_tests.it9.it9,
+	'it10':
+	all_tests.it10.it10,
+	'it11':
+	all_tests.it11.it11,
+	'it12':
+	all_tests.it12.it12,
+	'it13':
+	all_tests.it13.it13,
+	'it14':
+	all_tests.it14.it14,
+	'it15':
+	all_tests.it15.it15,
+	'it16':
+	all_tests.it16.it16,
+	'it17':
+	all_tests.it17.it17,
+	'it18':
+	all_tests.it18.it18,
+	'it19':
+	all_tests.it19.it19,
+	'it20':
+	all_tests.it20.it20,
 
-	# 'pt1':
-	# all_tests.pt1.pt1,
-	# 'pt2':
-	# all_tests.pt2.pt2,
-	# 'pt3':
-	# all_tests.pt3.pt3,
-	# 'pt4':
-	# all_tests.pt4.pt4,
-	# 'pt5':
-	# all_tests.pt5.pt5,
-	# 'pt6':
-	# all_tests.pt6.pt6,
-	# 'pt7':
-	# all_tests.pt7.pt7,
-	# 'pt8':
-	# all_tests.pt8.pt8,
+	'pt1':
+	all_tests.pt1.pt1,
+	'pt2':
+	all_tests.pt2.pt2,
+	'pt3':
+	all_tests.pt3.pt3,
+	'pt4':
+	all_tests.pt4.pt4,
+	'pt5':
+	all_tests.pt5.pt5,
+	'pt6':
+	all_tests.pt6.pt6,
+	'pt7':
+	all_tests.pt7.pt7,
+	'pt8':
+	all_tests.pt8.pt8,
 	# 'pt9':
 	# all_tests.pt9.pt9,
-	# 'pt10':
-	# all_tests.pt10.pt10,
-	# 'pt11':
-	# all_tests.pt11.pt11,
-	# 'pt12':
-	# all_tests.pt12.pt12,
-	# 'pt13':
-	# all_tests.pt13.pt13,
-	# 'pt14':
-	# all_tests.pt14.pt14,
-	# 'pt15':
-	# all_tests.pt15.pt15,
-	# 'pt16':
-	# all_tests.pt16.pt16,
-	# 'pt17':
-	# all_tests.pt17.pt17,
-	# 'pt18':
-	# all_tests.pt18.pt18,
-	# 'pt19':
-	# all_tests.pt19.pt19,
-	# 'pt20':
-	# all_tests.pt20.pt20,
-	# 'pt21':
-	# all_tests.pt21.pt21,
-	# 'pt22':
-	# all_tests.pt22.pt22,
+	'pt10':
+	all_tests.pt10.pt10,
+	'pt11':
+	all_tests.pt11.pt11,
+	'pt12':
+	all_tests.pt12.pt12,
+	'pt13':
+	all_tests.pt13.pt13,
+	'pt14':
+	all_tests.pt14.pt14,
+	'pt15':
+	all_tests.pt15.pt15,
+	'pt16':
+	all_tests.pt16.pt16,
+	'pt17':
+	all_tests.pt17.pt17,
+	'pt18':
+	all_tests.pt18.pt18,
+	'pt19':
+	all_tests.pt19.pt19,
+	'pt20':
+	all_tests.pt20.pt20,
+	'pt21':
+	all_tests.pt21.pt21,
+	'pt22':
+	all_tests.pt22.pt22,
 	# 'pt23':
 	# all_tests.pt23.pt23,
 	# 'pt24':
