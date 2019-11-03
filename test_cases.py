@@ -108,7 +108,9 @@ import all_tests.pt19
 import all_tests.pt20
 import all_tests.pt21 # not working
 import all_tests.pt22
-
+import all_tests.pt23
+import all_tests.pt24
+import all_tests.pt25
 # import all_tests.unit_test_actions
 # import all_tests.unit_test_application
 # import all_tests.unit_test_automatic_column_adjustment
@@ -303,12 +305,12 @@ TESTS = {
 	all_tests.pt21.pt21,
 	'pt22':
 	all_tests.pt22.pt22,
-	# 'pt23':
-	# all_tests.pt23.pt23,
-	# 'pt24':
-	# all_tests.pt24.pt24,
-	# 'pt25':
-	# all_tests.pt25.pt25,
+	'pt23':
+	all_tests.pt23.pt23,
+	'pt24':
+	all_tests.pt24.pt24,
+	'pt25':
+	all_tests.pt25.pt25,
 
 
 	# 'actions_grammar':

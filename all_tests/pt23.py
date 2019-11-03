@@ -18,7 +18,7 @@ class pt23(unittest.TestCase):
             for lineCount in (1,2):
                 a = timeit(
                     r'''
-final = str.partition(text,'a')
+final = str.count(text,'a')
 ''',
                     setup=r'''
 text = 'a'*10000
@@ -27,23 +27,13 @@ text = 'a'*10000
 
                 b = timeit(
                     r'''
-divideString('a'*10000,10000)
+sum=0
+for i in range(0,10000):
+    if (text[i]=='a'):
+        sum+=1
 ''',
                     setup=r'''
-def divideString(string, n): 
-    str_size = len(string) 
-  
-    # Check if string can be divided in n equal parts 
-    if str_size % n != 0: 
-        return
-  
-    # Calculate the size of parts to find the division points 
-    part_size = str_size/n 
-    k = 0
-    for i in string: 
-        if k%part_size==0: 
-          pass  
-        k += 1
+text = 'a'*10000
 ''',
                     number=100)
                 print("\n%9s: %s %s" % (lineCount, a, b))
