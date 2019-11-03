@@ -36,17 +36,20 @@ class it9(app.fake_curses_testing.FakeCursesTestCase):
         # self.textBuffer = app.text_buffer.TextBuffer(self.prg)
         # self.textBuffer.setView(FakeView())
         app.fake_curses_testing.FakeCursesTestCase.setUp(self)
+        self.textBuffer = app.text_buffer.TextBuffer(self.prg)
 
     def testit9(self):
         self.runWithFakeInputs([
             self.displayCheck(2, 7, [u"      "]),
-
             self.writeText(u"()"),
             self.displayCheck(2, 7, [u"() "]),
-            KEY_LEFT,
+            self.writeText(u"x"),
+
+            self.selectionCheck(0, 3, 0, 0, 0), KEY_SHIFT_LEFT,
             CTRL_X,
             KEY_LEFT,
+            
             CTRL_V,
-            self.displayCheck(2, 7, [u"() "]), 
+            self.displayCheck(2, 7, [u"(x)"]), 
             CTRL_Q, u"n"
         ])

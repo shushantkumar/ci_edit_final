@@ -74,7 +74,7 @@ import all_tests.it5
 import all_tests.it6
 import all_tests.it7
 import all_tests.it8
-import all_tests.it9  # dont know how to do
+import all_tests.it9  
 import all_tests.it10
 import all_tests.it11
 import all_tests.it12
@@ -84,7 +84,7 @@ import all_tests.it15
 import all_tests.it16
 import all_tests.it17
 import all_tests.it18
-import all_tests.it19  # test case failed
+import all_tests.it19  
 import all_tests.it20
 
 import all_tests.pt1
@@ -106,7 +106,7 @@ import all_tests.pt17
 import all_tests.pt18
 import all_tests.pt19
 import all_tests.pt20
-import all_tests.pt21 # not working
+import all_tests.pt21
 import all_tests.pt22
 import all_tests.pt23
 import all_tests.pt24
@@ -167,12 +167,12 @@ TESTS = {
 	all_tests.ut13.ut13,
 	'ut14':
 	all_tests.ut14.ut14,
-	# 'ut15':
-	# all_tests.ut15.ut15,
-	# 'ut16':
-	# all_tests.ut16.ut16,
-	# 'ut17':
-	# all_tests.ut17.ut17,
+	'ut15':
+	all_tests.ut15.ut15,
+	'ut16':
+	all_tests.ut16.ut16,
+	'ut17':
+	all_tests.ut17.ut17,
 	'ut18':
 	all_tests.ut18.ut18,
 	'ut19':

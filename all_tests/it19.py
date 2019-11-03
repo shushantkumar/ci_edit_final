@@ -21,7 +21,7 @@ class it19(app.fake_curses_testing.FakeCursesTestCase):
             CTRL_O,
             self.displayCheck(0, 0, [u" ci    Open"]),
             KEY_PAGE_DOWN,
-            self.displayFindCheck(u"AUTHORS", u""),
+            self.displayFindCheck(u"CONTRIBUTING", u""),
             CTRL_Q,
             # quiting from file manager using two frame updates. 
             CTRL_Q,
